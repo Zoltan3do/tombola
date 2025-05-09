@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+main {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+#container-cartellone {
+    margin-bottom: 20px;
+}
+
+#container-cartellone div {
+    float: left;
+    width: 10%;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+#container-cartellone div p {
+    font-size: 18px;
+    margin: 0;
+}
+
+#container-cartellone::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#current-number {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#form {
+    margin-bottom: 20px;
+}
+
+#form label {
+    margin-bottom: 10px;
+}
+
+#form input[type="number"] {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+#form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#form button[type="submit"]:hover {
+    background-color: #444;
+}
+
+#container-cartelle {
+    margin-top: 20px;
+}
+
+#container-cartelle div {
+    float: left;
+    width: 20%;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#container-cartelle div p {
+    font-size: 18px;
+    margin: 0;
+}
+
+#container-cartelle::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#win {
+    font-size: 24px;
+    font-weight: bold;
+    color: #008000;
+    margin-top: 20px;
+}
+
+button[type="button"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="button"]:hover {
+    background-color: #444;
+}
+
+footer {
+    width: 5%;
+    margin: 20px auto;
+}
+
+#reset {
+    font-size: 1.5em;
+}
+
+#reset:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tombola</title>
+    <link rel="icon" href="assets/img/logo.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tombola</h1>
+    </header>
+
+    <main>
+        <div id="container-cartellone"></div>
+        <h2 id="current-number"></h2>
+        <button type="button" id="sort">Estrai un numero</button>
+        <form id="form">
+            <label for="numero-cartelle">Quante cartelle vuoi acquistare?</label>
+            <input type="number" id="numero-cartelle" name="numero-cartelle" />
+            <button type="submit" id="buy">Acquista</button>
+        </form>
+        <div id="container-cartelle"></div>
+    </main>
+
+    <aside>
+        <h2 id="win"></h2>
+    </aside>
+    <footer>
+        <button onclick="location.reload()" id="reset">RESET</button>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
